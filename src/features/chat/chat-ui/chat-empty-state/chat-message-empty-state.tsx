@@ -18,8 +18,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
         <p className="">
-          Start by just typing your message in the box below. You can also
-          personalise the chat by making changes to the settings on the right.
+          以下のボックスにメッセージを入力するだけでスタートできます。
+          また、右側の設定を変更することで、チャットをパーソナライズすることもできます。
         </p>
       </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
