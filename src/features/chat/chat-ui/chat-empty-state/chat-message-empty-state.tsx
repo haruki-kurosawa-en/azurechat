@@ -29,13 +29,13 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
 
         <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
-            Choose a conversation style
+            会話スタイルを選択してください
           </p>
           <ChatStyleSelector disable={false} />
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
-            How would you like to chat?
+          どのようなスタイルでチャットを進めたいですか？
           </p>
           <ChatTypeSelector disable={false} />
         </div>
